@@ -1,0 +1,26 @@
+#+TITLE: auto-insert-mode layer for Spacemacs
+
+* Table of Contents                                                      :TOC@4:
+ - [[#description][Description]]
+ - [[#install][Install]]
+   - [[#layer][Layer]]
+
+* Description
+
+This layer specifies support for the auto-insert-mode for spacemacs
+*It is a work in progress, use with caution.*
+
+* Install
+
+** Layer
+
+To install, clone this repository to your =~/.emacs.d/private= directory. Note that
+the local working directory must be named =auto-insert=. E.g.
+
+=git clone https://github.com/iory/auto-insert.github ~/.emacs.d/private/auto-insert=.
+
+Then, add the layer to your =~/.spacemacs=
+
+#+BEGIN_SRC emacs-lisp
+(setq-default dotspacemacs-configuration-layers '(auto-insert))
+#+END_SRC
