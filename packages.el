@@ -34,6 +34,7 @@
 (define-auto-insert "\\.cpp$" "c-plusplus-template.cpp")
 (define-auto-insert "\\.l$" "euslisp-template.l")
 (define-auto-insert "\\.launch$" "launch-template.launch")
+(define-auto-insert "\\.php$" "php-template.sh")
 (define-auto-insert "\\.py$" "py-template.py")
 (define-auto-insert "\\.sh$" "sh-template.sh")
 
